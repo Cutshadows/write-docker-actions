@@ -12,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-       - name: "hello-action"
-         uses: ./.github/actions/hello-world
+      - name: "hello-action"
+        uses: ./.github/actions/hello-world
 
-       - name: "meow"
-         uses: ./.github/actions/cat-facts
+      - name: "meow"
+        uses: ./.github/actions/cat-facts
 #jobs:
 #  action:
 #    runs-on: "ubuntu-latest"
